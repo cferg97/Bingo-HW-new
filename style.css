@@ -1,0 +1,84 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(rgb(153, 130, 94), white);
+    border-radius: 20px;
+}
+
+.board {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-board {
+    text-align: center;
+    vertical-align: middle;
+    width: 800px;
+}
+
+.user-board {
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.cell:hover {
+    background-color: #97764d;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cell {
+    font-size: 0.75em;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #dac5ac;
+    background-color: #e6cfb4;
+    transition: 1s;
+}
+
+.t-center {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 2em;
+}
+
+.btn {
+    color: white;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgb(33, 109, 105);
+    border: 2px solid rgb(3, 41, 44);
+}
+
+.input-field {
+    margin: 0 auto;
+    width: 10%;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.highlight {
+    background-color: rgb(243, 70, 98);
+}
